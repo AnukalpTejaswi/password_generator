@@ -12,7 +12,7 @@ This project allows users to create a secure random password by choosing:
 - Inclusion of digits
 - Inclusion of symbols
 
-It is a beginner-friendly project to practice Python basics.
+It is a beginner-friendly project to practice Python basics and random module.
 
 ---
 
