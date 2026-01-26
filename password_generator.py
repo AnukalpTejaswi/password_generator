@@ -1,5 +1,4 @@
 # •	Password Generator – User chooses length and options (letters, numbers, symbols), program outputs random password.
-# •	Password Generator – User chooses length and options (letters, numbers, symbols), program outputs random password.
 import random
 import string
 import tkinter as tk
@@ -85,3 +84,4 @@ result_label = tk.Label(root, text="", wraplength=350, fg="blue")
 result_label.pack(pady=10)
 
 root.mainloop()
+
