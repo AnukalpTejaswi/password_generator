@@ -1,39 +1,110 @@
-# Password Generator (Python)
+# 🔐 Password Generator (Python)
 
-A simple Python program that generates a random password based on user-selected criteria such as letters, digits, and symbols.
+A simple Python program that generates secure random passwords based on user-selected criteria such as length, letters, digits, and symbols.
+
+This project is designed to practice Python fundamentals, user input handling, and working with built-in libraries like `random` and `string`.
 
 ---
 
 ## 📌 About the Project
 
-This project allows users to create a secure random password by choosing:
-- Password length
-- Inclusion of letters
-- Inclusion of digits
-- Inclusion of symbols
+This password generator allows users to create a customized password by selecting:
 
-It is a beginner-friendly project to practice Python basics and random module.
+* Password length
+* Whether to include letters
+* Whether to include digits
+* Whether to include symbols
+
+The program validates user input and ensures a password can always be generated safely.
 
 ---
 
 ## 🚀 Features
 
-- Custom password length
-- User choice for character types
-- Random and secure password generation
-- Input validation for character selection
+* Generate random passwords of custom length
+* Choose character types (letters, numbers, symbols)
+* Input validation
+* Beginner-friendly Python implementation
+* CLI-based interaction
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3
-- Built-in libraries: `random`, `string`
+* Python 3
+* Built-in libraries:
+
+  * `random`
+  * `string`
+
+---
+
+## 📂 Project Structure
+
+password-generator/
+│
+├── password_generator.py
+└── README.md
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository
-```bash
+### 1. Clone the repository
+
+```
 git clone https://github.com/your-username/password-generator.git
+```
+
+### 2. Navigate to the project folder
+
+```
+cd password-generator
+```
+
+### 3. Run the program
+
+```
+python password_generator.py
+```
+
+---
+
+## 💡 Example
+
+```
+Enter password length: 10
+Include letters? (y/n): y
+Include digits? (y/n): y
+Include symbols? (y/n): n
+
+Generated Password: aT9kLm2QpR
+```
+
+---
+
+## 🎯 Learning Goals
+
+This project helps practice:
+
+* Python input/output
+* Conditional logic
+* Random value generation
+* String manipulation
+* Basic CLI program structure
+
+---
+
+## ✨ Future Improvements
+
+* Add GUI version
+* Add password strength indicator
+* Save generated passwords to file
+* Add copy-to-clipboard feature
+* Convert to reusable module
+
+---
+
+## 👨‍💻 Author
+
+Anukalp Tejaswi
