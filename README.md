@@ -40,12 +40,12 @@ The program validates user input and ensures a password can always be generated 
 ---
 
 ## 📂 Project Structure
-
+```
 password-generator/
 │
 ├── password_generator.py
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run
