@@ -97,11 +97,9 @@ This project helps practice:
 
 ## ✨ Future Improvements
 
-* Add GUI version
 * Add password strength indicator
 * Save generated passwords to file
 * Add copy-to-clipboard feature
-* Convert to reusable module
 
 ---
 
